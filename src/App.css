@@ -1,0 +1,45 @@
+.container {
+    max-width: 100vw;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-input{
+    width: 90%;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container input {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+    outline: none;
+
+}
+
+.container button {
+    background-color: rgb(254, 122, 69);
+    width: fit-content;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container button:hover {
+    background-color: rgb(226, 103, 55);
+}

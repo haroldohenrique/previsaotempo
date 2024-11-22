@@ -1,6 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: #333;
+  background: linear-gradient(0deg, rgba(37, 39, 71, 1) 9%, rgba(0, 60, 136, 1) 44%, rgba(43, 184, 214, 1) 97%);
+  background-attachment: fixed;
   font-family: "Poppins", serif;
+  line-height: 1.6;
+
 }
